@@ -59,9 +59,41 @@ TWC dataset (twcs.csv) usually has columns like:
 | **Deployment** | Docker, Render / Vercel / AWS |
 
 ---
+## Model Development Features
+- **Baseline model:** TF-IDF + Logistic Regression  
+- **Transformer model:** DistilBERT fine-tuned with Hugging Face  
+- **Routing logic:** Auto-route, suggest, or escalate based on confidence thresholds  
+- **Evaluation:** confusion matrix, classification reports, calibration curves  
+- **Colab notebook** for experiments + **script.py** for reproducibility  
+- **Portfolio-ready visuals** and results 
+---
+## How It Works
+
+1. **User submits a ticket** → describing their issue.  
+2. **Agent receives a notification** → and responds.  
+3. **Conversation thread** persists for record-keeping.  
+4. **Admin monitors performance** via dashboard analytics.
+---
+## Screenshots Demo
+### UI
+### Dashboard
+### Ticket Flow
+---
 
 ## Dashboard Preview (Concept)
+---
+## Setup & Installation
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/twitter-support-ticket.git
+cd twitter-support-ticket
 
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+---
 ## Optional Enhancements
 
 - **Analytics Dashboard** – Visualises issue categories, response times, and sentiment trends.
