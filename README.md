@@ -83,6 +83,10 @@ TWC dataset (twcs.csv) usually has columns like:
 ## Dashboard Preview (Concept)
 ---
 ## Setup & Installation
+### Project Structure
+<img width="629" height="312" alt="image" src="https://github.com/user-attachments/assets/33ebbe13-d289-4d6f-b42d-bdb419441099" />
+
+### Installation
 ```bash
 # Clone the repo
 git clone https://github.com/<your-username>/twitter-support-ticket.git
