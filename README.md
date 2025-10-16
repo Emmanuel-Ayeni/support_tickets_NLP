@@ -1,5 +1,5 @@
 # <img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/5a658a68-8cf0-4187-909a-8d1c2dbae9e9" />
- Twitter Support Ticket System (AI-Powered)
+ # Twitter Support Ticket System (AI-Powered)
 
 > A **Machine Learning–driven Support Ticket System** inspired by **Twitter’s customer service model**, built to analyse sentiment, prioritise issues, and assist support agents in real time.
 
@@ -14,26 +14,20 @@ It automatically classifies and prioritises user complaints from Twitter, routes
 ---
 
 ## Key Features
-
--  **Twitter Customer Support** – TWCS tabular data that captures tweets mentioning support issues and responses.  
+-  **Twitter Customer Support Dataset** – TWCS tabular data that captures tweets mentioning support issues and responses.  
 - **ML-Powered Classification** – Uses NLP to detect issue type, urgency, and sentiment.  
 - **AI-Assisted Replies** – Suggests responses for support agents using fine-tuned transformer models.  
-- **Analytics Dashboard** – Visualises issue categories, response times, and sentiment trends.  
 - **Real-time Notifications** – Alerts agents about new tickets or urgent complaints.  
 -  **Auto-Prioritisation** – High-severity issues move to the top of the queue.  
 -  **Role-Based Access** – Secure roles for users, agents, and admins.
 
 ---
-## Data Data
+## Data 
 TWC dataset (twcs.csv) usually has columns like:
 - **tweet_id**
-
 - **author_id**
-
 - **inbound**
-
 - **response_tweet_id**
-
 
 | Column      | Type    | Description                                         | Example |
 |--------------|---------|-----------------------------------------------------|----------|
@@ -43,28 +37,20 @@ TWC dataset (twcs.csv) usually has columns like:
 | is_support   | int     | Flag indicating if the tweet is a support issue (1) or not (0). | `1` |
 | issue_type   | string  | Detected category of the issue based on keywords.  | `Connectivity` |
 | status       | string  | Current ticket status (e.g., Open, Closed, Resolved). | `Open` |
-
-
-
 ---
-
 ##  Machine Learning Components
-
 | Task | Model / Method |
 |------|----------------|
 | **Sentiment Analysis** | BERT / RoBERTa fine-tuned on Twitter data |
 | **Topic Classification** | Logistic Regression / SVM / Transformer-based classifier |
 | **Response Suggestion** | GPT / fine-tuned seq2seq model |
-| **Data Source** | Twitter API (via Tweepy) |
+| **Data Source** | customer-support-on-twitter (twcs) via Kaggle API |
 | **Preprocessing** | NLTK / SpaCy / HuggingFace Transformers |
 
 ---
-
-## 🛠️ Tech Stack
-
+## Tech Stack
 | Layer | Technologies |
 |-------|---------------|
-| **Frontend** | React / Next.js, TailwindCSS |
 | **Backend** | Python (FastAPI / Flask) |
 | **Machine Learning** | PyTorch / Scikit-learn / Transformers |
 | **Database** | PostgreSQL / MongoDB |
@@ -74,5 +60,25 @@ TWC dataset (twcs.csv) usually has columns like:
 
 ---
 
-## 📈 Dashboard Preview (Concept)
+## Dashboard Preview (Concept)
+
+## Optional Enhancements
+
+- **Analytics Dashboard** – Visualises issue categories, response times, and sentiment trends.
+---
+## Future Improvements
+- [X] Data Source - Twitter API (via Tweepy)
+- [X] Integrate multilingual tweet support 
+- [X] Build advanced topic modelling (LDA / BERTopic)
+- [X]  Add agent performance leaderboard
+- [X]  Deploy as SaaS with API endpoints
+- [X]  Add chatbot integration (Slack / Discord)
+- [X]  Frontend - React / Next.js, TailwindCSS 
+---
+## Contact
+- [X] Email: emmanuelayeni93@gmail.com
+- [ ] GitHub: @Emmanuel-Ayeni
+      
+
+
 
