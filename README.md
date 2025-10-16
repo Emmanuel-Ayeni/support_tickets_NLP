@@ -109,7 +109,7 @@ npm run dev
 ---
 ## Contact
 - [X] Email: emmanuelayeni93@gmail.com
-- [ ] GitHub: @Emmanuel-Ayeni
+- [X] GitHub: @Emmanuel-Ayeni
       
 
 
